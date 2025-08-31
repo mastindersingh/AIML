@@ -5,8 +5,8 @@ import os
 import numpy as np
 import cv2
 from PIL import Image
-from counterfeit.model import siamese_model
-from counterfeit.predict import ImageEncoder
+from model import siamese_model
+from predict import ImageEncoder
 
 
 class DocumentVerifier:

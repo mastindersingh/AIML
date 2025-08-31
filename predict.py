@@ -4,7 +4,7 @@ import numpy as np
 from scipy.spatial import distance
 from tensorflow.keras import Model
 from tensorflow.keras.applications import resnet
-from .utils.image_utils import align_imgs
+from image_utils import align_imgs
 
 logging.basicConfig(format="%(asctime)s %(message)s")
 logger = logging.getLogger(__name__)
