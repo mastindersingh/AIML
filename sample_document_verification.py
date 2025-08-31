@@ -55,5 +55,5 @@ if __name__ == "__main__":
             if fname.lower().endswith((".png", ".jpg", ".jpeg")):
                 images.append((f"tampered/{fname}", f"Tampered: {fname}"))
     for img, desc in images:
-    result = verifier.verify(img)
+        result = verifier.verify(img)
         print(f"{desc} - {img}: {result}")
