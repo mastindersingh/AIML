@@ -20,7 +20,7 @@ def download_sample_documents():
     print(f"Downloading sample dataset: {dataset_name}")
     dataset = load_dataset(dataset_name)
     # Save a few images to the document_verification folder
-    save_dir = os.path.dirname(__file__)
+    save_dir = os.getcwd()
     count = 0
     for item in dataset['train']:
         if 'image' in item:
@@ -49,11 +49,11 @@ if __name__ == "__main__":
         ("sample_hf_2.png", "HuggingFace Sample 2")
     ]
     # Add all tampered images
-    tampered_dir = os.path.join(os.path.dirname(__file__), "tampered")
+    tampered_dir = os.path.join(os.getcwd(), "tampered")
     if os.path.exists(tampered_dir):
         for fname in os.listdir(tampered_dir):
             if fname.lower().endswith((".png", ".jpg", ".jpeg")):
                 images.append((f"tampered/{fname}", f"Tampered: {fname}"))
     for img, desc in images:
-        result = verifier.verify(f"document_verification/{img}")
+    result = verifier.verify(img)
         print(f"{desc} - {img}: {result}")
