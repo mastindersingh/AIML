@@ -1,0 +1,30 @@
+AI in Banking: Beyond Buzzwords — Real Impact
+
+The future of Banking & Financial Services isn’t just digital — it’s intelligent.  
+Here’s how AI-driven document intelligence is already transforming the game 👇
+
+✅ KYC (Know Your Customer):  
+Instantly verify passports, Aadhaar cards, or driver’s licenses during onboarding — no delays, no guesswork.
+
+✅ Loan Application Screening:  
+Catch forged income statements, fake employment letters, or tampered credit reports before they slip through.
+
+✅ Fraud & Anomaly Detection:  
+Spot subtle manipulations in scanned checks, mismatched fonts in bank statements, or suspicious gaps in transaction histories — at lightning speed.
+
+🔍 Why it works:  
+Banks process millions of sensitive documents daily.  
+Manual review = errors + delays  
+AI-powered verification = faster compliance, reduced fraud, and stronger customer trust
+
+💡 And the best part? This isn’t the future. It’s happening right now.
+
+---
+
+🚀 Try it yourself!  
+I’ve open-sourced a document verification pipeline:  
+https://github.com/mastindersingh/AIML/
+
+Can you detect fake documents with it?  
+Clone the repo, follow the README, and let me know your results or suggestions!  
+#AI #Banking #DocumentIntelligence #OpenSource
