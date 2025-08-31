@@ -32,7 +32,7 @@ def download_sample_documents():
         if count >= 3:
             break
 
-from document_verification.document_verifier import DocumentVerifier
+from document_verifier import DocumentVerifier
 
 if __name__ == "__main__":
     # Uncomment to download sample documents from Hugging Face
